@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>练不狠也能减（门槛篇） · 减脂课代表口播稿库</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#f0f2f5;font-family:'PingFang SC','Microsoft YaHei',system-ui,sans-serif;color:#1a1a1a;line-height:1.8;padding:16px 12px 90px}
+.wrap{max-width:720px;margin:0 auto}
+.back{display:inline-block;margin-bottom:12px;color:#0f6fbe;font-size:14px;font-weight:700;text-decoration:none}
+.head{background:#fff;border-radius:16px;padding:22px 20px;text-align:center;border-bottom:4px solid #0f6fbe}
+.head .ep{color:#0f6fbe;font-weight:700;font-size:13px;letter-spacing:2px}
+.head h1{font-size:24px;margin:8px 0 4px}
+.head .sub{color:#666;font-size:14px}
+.st{display:inline-block;border-radius:10px;font-size:12px;font-weight:700;padding:1px 10px;margin-left:6px;vertical-align:middle}
+.st.ok{background:#e8f5ec;color:#1d6b33;border:1px solid #bfe3cc}
+.st.done{background:#eef5fb;color:#0f6fbe;border:1px solid #b8d4ec}
+.tip{background:#fff7e6;border:1px solid #eedba8;border-radius:12px;padding:10px 14px;font-size:14px;color:#8a6d1a;margin-top:14px;text-align:left}
+.restored{background:#e8f5ec;border:1px solid #bfe3cc;border-radius:12px;padding:10px 14px;font-size:14px;color:#1d6b33;margin-top:10px;display:none}
+.restored button{border:none;background:none;color:#1d6b33;font-weight:700;text-decoration:underline;font-size:14px;cursor:pointer}
+.badge{display:inline-block;background:#eef5fb;color:#0f6fbe;border:1px solid #b8d4ec;border-radius:10px;font-size:12px;font-weight:700;padding:1px 8px;margin-left:6px;vertical-align:middle}
+.badge.gold{background:#fff7e6;color:#b8860b;border-color:#eedba8}
+h2{font-size:19px;margin:26px 0 12px;padding-left:10px;border-left:5px solid #0f6fbe}
+.card{background:#fff;border-radius:14px;padding:18px;margin-bottom:14px;box-shadow:0 1px 4px rgba(0,0,0,.05)}
+.t{color:#999;font-size:13px;font-weight:700;margin-bottom:6px}
+.speak{font-size:18px}
+.z{color:#0f6fbe;font-weight:800}
+.edit{border:1.5px solid transparent;border-radius:8px;padding:10px 12px;outline:none;transition:border-color .2s}
+body.editing .edit{border-color:#c9d8e8}
+body.editing .edit:focus{border-color:#0f6fbe;background:#fafcff}
+li{background:#fff;border-radius:12px;padding:12px 16px;margin-bottom:10px;list-style:none;box-shadow:0 1px 4px rgba(0,0,0,.05);font-size:15px}
+li b{color:#0f6fbe}
+a{color:#0f6fbe;word-break:break-all}
+.foot{text-align:center;color:#aaa;font-size:12px;margin-top:30px}
+.bar{position:fixed;left:0;right:0;bottom:0;background:rgba(255,255,255,.96);border-top:1px solid #dde3ea;padding:10px 12px calc(10px + env(safe-area-inset-bottom));display:flex;gap:8px;justify-content:center;z-index:99}
+.bar button{flex:1;max-width:180px;border:none;border-radius:12px;padding:12px 6px;font-size:15px;font-weight:700;cursor:pointer}
+.b-edit{background:#0f6fbe;color:#fff}
+body.editing .b-edit{background:#e53935}
+.b-save{background:#eef5fb;color:#0f6fbe;border:1.5px solid #b8d4ec!important}
+.b-copy{background:#1d6b33;color:#fff}
+.b-dl{background:#fff;color:#666;border:1.5px solid #d8dee5!important}
+#toast{position:fixed;top:40%;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.75);color:#fff;padding:10px 22px;border-radius:22px;font-size:15px;display:none;z-index:100;white-space:nowrap}
+</style></head>
+<body>
+<div class="wrap">
+<a class="back" href="index.html">← 稿库目录</a>
+<div class="head">
+<div class="ep">减脂课代表 · 第1篇 · 已发布</div>
+<h1>《练不狠也能减（门槛篇）》<span class="st ok">已发布</span></h1>
+<div class="sub">每周30分钟，就能开始掉 · 2026-09-11 · 约90秒</div>
+<div class="tip">✏️ 默认<b>锁定只读</b>防误改——点底部「✏️ 编辑」才能改字；改完「💾 保存」，下次打开自动是你的版本；「📋 复制全文」粘贴发回给撑撑同步母版。</div>
+<div class="restored" id="restored">📗 已恢复你保存过的修改 <button onclick="resetOrig()">↩️ 恢复原始</button></div>
+</div>
+<h2>口播稿</h2>
+<div class="card"><div class="t">钩子（0-8s）<span class="badge">配音版</span></div><p class="speak edit">减肥是不是练得越狠，瘦得越快？不是——<span class="z">每周30分钟</span>，就能开始掉。</p></div>
+<div class="card"><div class="t">证据弹窗（8-20s）<span class="badge">文献卡×2</span></div><p class="speak edit">凭什么？2024年《美国医学会杂志》子刊汇总大量研究：每周30分钟快走、慢跑这种有氧，体重、腰围、体脂就开始降——不多，但真的在动。想省时间？研究里直接对比过：只要总消耗差不多，15分钟高强度间歇，减脂效果顶得上30分钟慢跑——<span class="z">时间省一半</span>。</p></div>
+<div class="card"><div class="t">一句话原理（20-30s）</div><p class="speak edit">为什么？减脂看的是你一共动掉多少，不是练得多惨——<span class="z">动了，就赢过没动</span>。</p></div>
+<div class="card"><div class="t">转折+痛点（30-45s）<span class="badge">Nature子刊</span></div><p class="speak edit">但问题来了：一周都挤不出时间呢？《自然·通讯》针对中国人的研究给过答案："周末战士"——一周的量集中周末练完，减脂效果跟每天练差不多，<span class="z">腰围甚至降得更好</span>。</p></div>
+<div class="card"><div class="t">实操模板（45-75s）<span class="badge">三版本对号入座</span></div><p class="speak edit">三个版本，对号入座：懒人版——最低门槛：每周快走30分钟就开始掉；想稳一点，每天快走30分钟；忙人版——每周3次：开合跳30秒+慢走60秒，8轮，15分钟收工；周末版——周六一次练满75分钟，就按忙人版那套间歇拉长做完，剩下的日子正常过。</p></div>
+<div class="card"><div class="t">降阶（75-82s）</div><p class="speak edit">体重大的、膝盖不好的，快走换游泳骑车，一样的。</p></div>
+<div class="card"><div class="t">收尾（82-90s）<span class="badge">三个数</span></div><p class="speak edit">今天记住三个数：30分钟就能开始，15分钟顶30分钟，周末练完也一样。你不需要练得狠，你需要练得持续。关注我，只讲有文献的减脂——这个系列会一直更下去。</p></div>
+<h2>文献与备注</h2>
+<ul>
+<li><b>文献1：</b>JAMA Network Open 2024——每周30分钟有氧：体重、腰围、体脂开始下降 <a href='https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2828487'>链接</a></li>
+<li><b>文献2：</b>iScience 2025——HIIT与慢有氧减脂效果无显著差异</li>
+<li><b>文献3：</b>Nature Communications 中国人群RCT——周末集中训练≈日常分散训练 <a href='https://www.nature.com/articles/s41467-025-68149-7'>链接</a></li>
+</ul>
+<div class="foot">减脂课代表口播稿库 · 第1篇 · 2026-09-11</div>
+</div>
+<div class="bar">
+<button class="b-edit" id="btnEdit" onclick="toggleEdit()">✏️ 编辑</button>
+<button class="b-save" onclick="save()">💾 保存</button>
+<button class="b-copy" onclick="copyScript()">📋 复制</button>
+<button class="b-dl" onclick="dl()">📤 导出</button>
+</div>
+<div id="toast"></div>
+<script>
+var PID='p1';
+var SEGS=[].slice.call(document.querySelectorAll('.edit'));
+var NAMES=[].slice.call(document.querySelectorAll('.t'));
+function toast(m){var t=document.getElementById('toast');t.textContent=m;t.style.display='block';setTimeout(function(){t.style.display='none';},1800);}
+(function(){var s=null;try{s=localStorage.getItem('kbz-'+PID);}catch(e){}
+if(s){try{var a=JSON.parse(s);var n=0;SEGS.forEach(function(el,i){if(a[i]&&a[i]!==el.innerHTML){el.innerHTML=a[i];n++;}});if(n>0)document.getElementById('restored').style.display='block';}catch(e){}}})();
+function toggleEdit(){var b=document.body;var on=b.classList.toggle('editing');SEGS.forEach(function(el){el.setAttribute('contenteditable',on);});document.getElementById('btnEdit').textContent=on?'🔒 锁定':'✏️ 编辑';toast(on?'编辑模式：点文字修改':'已锁定');}
+function save(){var a=SEGS.map(function(el){return el.innerHTML;});try{localStorage.setItem('kbz-'+PID,JSON.stringify(a));toast('✅ 已保存，下次打开还是这版');}catch(e){toast('保存失败：浏览器禁用了存储');}}
+function resetOrig(){try{localStorage.removeItem('kbz-'+PID);}catch(e){}location.reload();}
+function copyScript(){var out=[];SEGS.forEach(function(el,i){var nm=(NAMES[i]?NAMES[i].childNodes[0].textContent:'').trim();out.push('【'+nm+'】');out.push(el.innerText.trim());out.push('');});var text=out.join('\n');
+function fb(t){var ta=document.createElement('textarea');ta.value=t;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.focus();ta.select();try{document.execCommand('copy');toast('✅ 已复制，粘贴发回给撑撑');}catch(e){toast('复制失败，长按文字手动复制');}ta.remove();}
+if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(function(){toast('✅ 已复制，粘贴发回给撑撑');},function(){fb(text);});}else{fb(text);}}
+function dl(){var html='<!DOCTYPE html>\n'+document.documentElement.outerHTML;var blob=new Blob([html],{type:'text/html;charset=utf-8'});var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='减脂课代表-第1篇-我改的版本.html';document.body.appendChild(a);a.click();a.remove();toast('📤 已导出（含你的修改）');}
+</script>
+</body></html>
